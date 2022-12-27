@@ -1,11 +1,8 @@
 /************************************************************
 
-Author: Genevieve Masioni
-Author URI : http://genevievemasioni.com
-License: GNU General Public License v2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author: Morgan Kpassi
 Version: 1.0
-Tags: drum kit, 30DaysJavaScript
+Tags: One piece laugh, 30DaysJavaScript
 
 **************************************************************
 
@@ -22,15 +19,22 @@ Table of Contents:
 /************************************************
 0.	GLOBAL
 ************************************************/
+@font-face {
+  font-family: 'interface';
+  src: url('/01_DrumKit/assets/webfonts_ONE-PIECE/ONE-PIECE.ttf.woff') format('woff'),
+       url('/01_DrumKit/assets/webfonts_ONE-PIECE/ONE-PIECE.ttf.eot') format('eot');
+  font-weight: normal;
+  font-style: normal;
+}
 
 html, body {
   font-size: 16px;
 }
 
 body {
-  background: #201d15 url("../images/drumkit.jpg") no-repeat fixed center;
+  background: #201d15 url("../images/luffy.jpg") no-repeat fixed center;
   background-size: cover;
-  font-family: sans-serif;
+  font-family: 'interface', sans-serif;
   color: white;
 }
 
@@ -44,11 +48,13 @@ header {
 }
 
 #site-title {
-  font-family: 'Metal Mania', cursive;
   text-transform: uppercase;
-  font-size: 4rem;
+  font-size: 5  rem;
 }
 
+h2{
+  font-size: 3rem;
+}
 
 /************************************************
 2.	KEYS
@@ -65,7 +71,7 @@ header {
 }
 
 .key {
-  background: #301f23;
+  background: #41bac8;
   padding: 1rem;
   width: 4rem;
   margin: 1rem 0;
@@ -83,6 +89,10 @@ header {
   background: #2e1f30;
   box-shadow: 0 0 .5rem #000;
   transform: scale(1.1);
+}
+
+p.sound{
+  font-family: 'Metal Mania', cursive;
 }
 
 /************************************************
