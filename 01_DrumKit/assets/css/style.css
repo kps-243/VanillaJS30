@@ -49,7 +49,7 @@ header {
 
 #site-title {
   text-transform: uppercase;
-  font-size: 5  rem;
+  font-size: 5rem;
 }
 
 h2{
@@ -71,7 +71,7 @@ h2{
 }
 
 .key {
-  background: #41bac8;
+  background: #2c3745;
   padding: 1rem;
   width: 4rem;
   margin: 1rem 0;
@@ -82,13 +82,13 @@ h2{
 .key kbd {
   font-family: 'Metal Mania', cursive;
   font-size: 2rem;
-  color: #f8ddba;
+  color: #f8ecce;
 }
 
 .playing {
-  background: #2e1f30;
+  background: #e9e9e9;
   box-shadow: 0 0 .5rem #000;
-  transform: scale(1.1);
+  transform: scale(1.3);
 }
 
 p.sound{
